@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #222;
+  }
+  
+  header {
+    background-color: #5b7c99;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .frase-inicial {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  nav {
+    background-color: #2e3e4e;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .bloque-info {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #2e3e4e;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .datos-bio {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .datos-bio li {
+    margin-bottom: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .galeria-imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .galeria-imgs img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  footer {
+    background-color: #2e3e4e;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.4em;
+    text-decoration: none;
+  }
